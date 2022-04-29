@@ -992,6 +992,8 @@ Limitations:
 
 **Dynamo-style databases are generally optimised for use cases that can tolerate eventual consistency.**
 
+**Monitoring Staleness is difficult in leaderless replication as no fixed order in which writes are applied.
+
 #### Sloppy quorums and hinted handoff
 
 Leaderless replication may be appealing for use cases that require high availability and low latency, and that can tolerate occasional stale reads.
